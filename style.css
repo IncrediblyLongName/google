@@ -20,7 +20,21 @@ input {
     position: relative;
     right: 150px;
     border-radius: 30px;
-    margin: 0 0 30px 0;
+    margin: 0 0 28px 0;
+}
+
+.m-glass {
+    z-index: 5;
+    position: absolute;
+    bottom: 105px;
+    right: 538px;
+}
+
+.sbv {
+    z-index: 5;
+    position: absolute;
+    bottom: 107px;
+    left: 390px;
 }
 
 button {
