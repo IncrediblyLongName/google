@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    top: 182px;
+    left: 590px;
+    width: 425px;
+}
+
+.main-logo {
+    padding: 22px 0;
+}
+
+input {
+    width: 575px;
+    height: 42px;
+    position: relative;
+    right: 150px;
+    border-radius: 30px;
+    margin: 0 0 30px 0;
+}
+
+button {
+    font-family: arial,sans-serif;
+    padding: 10px 18px;
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 10px;
+    border-radius: 3px;
+    position: relative;
+    right: 10px;
+}
+
+.l-butt {
+    margin: 0 8px 0 0;
+}
