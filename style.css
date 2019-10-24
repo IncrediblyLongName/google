@@ -5,8 +5,8 @@
 
 main {
     position: relative;
-    top: 182px;
-    left: 590px;
+    top: 130px;
+    left: 585px;
     width: 425px;
 }
 
@@ -16,24 +16,25 @@ main {
 
 input {
     width: 575px;
-    height: 42px;
+    height: 45px;
     position: relative;
     right: 150px;
+    border:1px solid #dfdede;
     border-radius: 30px;
-    margin: 0 0 28px 0;
+    margin: 0 0 30px 0;
 }
 
 .m-glass {
     z-index: 5;
     position: absolute;
-    bottom: 105px;
-    right: 538px;
+    bottom: 107px;
+    right: 540px;
 }
 
 .sbv {
     z-index: 5;
     position: absolute;
-    bottom: 107px;
+    bottom: 109px;
     left: 390px;
 }
 
@@ -56,8 +57,7 @@ button {
 
 footer{
     position: relative;
-    top: 475;
-    top: 495px;
+    top: 450px;
     font-size: 13px;
     font-family: arial, sans-serif;
     color: #5f6368;
@@ -85,6 +85,9 @@ a:hover {
 
 .head-left, .head-button, .head-right {
     display: inline-block;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 .head-right, .head-button {
@@ -99,5 +102,10 @@ a:hover {
 }
 
 .head-button {
-    margin-top: 5px
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: rgb(39, 139, 233);
+    font-weight: 700;
 }
